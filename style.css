@@ -4,21 +4,22 @@ body {
     color: #333;
     font-family: "Lato", sans-serif;
 }
-.aaa {
+.container {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
-.aaa img {
+.container img {
     width: 100%;
 }
-.aaa .more_inf {
+.container .more-inf {
     font-family: "fantasy", cursive;
 }
 
 @media (max-width:768px) {
-.aaa { text-align: center;
+.container { 
+    text-align: center;
 }
 }
 .centered-main-page-element {
@@ -35,13 +36,13 @@ body {
     display: flex;
 }
 ul {
-    margin:0;
+    margin: 0;
     padding: 0px;
 }
 li, h3 {
-    list-style:none;
+    list-style: none;
 }
-input,button{
+input, button{
     outline:none;
 }
 button {
