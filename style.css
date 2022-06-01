@@ -2,7 +2,7 @@
 body {
     background-color: #f8f8f8;
     color: #333;
-    font-family: Lato, sans-serif;
+    font-family: "Lato", sans-serif;
 }
 .aaa {
     width: 500px;
@@ -14,7 +14,7 @@ body {
     width: 100%;
 }
 .aaa .more_inf {
-    font-family: fantasy, cursive;
+    font-family: "fantasy", cursive;
 }
 
 @media (max-width:768px) {
